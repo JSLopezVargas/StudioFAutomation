@@ -4,11 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25f2b9a1-431f-4e88-bb2b-880ed392d7e5" name="Changes" comment="" />
+    <list default="true" id="25f2b9a1-431f-4e88-bb2b-880ed392d7e5" name="Changes" comment="Initial Folder Configuration">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/interactions/DismissAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/interactions/RefreshPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/interactions/WaitForSeconds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/questions/ProductNameValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/tasks/AddToCartTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/tasks/SearchForTheProductTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/userinterfaces/CartPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/userinterfaces/CheckoutPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/userinterfaces/HomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/userinterfaces/ProductPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/userinterfaces/SearchPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/utils/BeforeSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/utils/DataToFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/studiof/utils/LectorExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/co/studiof/runners/BuyAProductRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/co/studiof/runners/PersonalizedRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/co/studiof/stepDefinitions/buyAProductStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/buyAProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/buyAProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/InputData.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="StudioFAutomation" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,21 +68,73 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2piuFJ5vZshWqLaPyUxMXkSi4DZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.BuyAProductRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/StudioFAutomation/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\StudioFAutomation\src\test\resources\features" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.co.studiof.tasks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.co.studiof.exceptions" />
+      <recent name="com.co.studiof.questions" />
+      <recent name="com.co.studiof.utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BuyAProductRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.co.studiof.runners.BuyAProductRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BuyAProductRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,9 +151,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733261115372</updated>
-      <workItem from="1733261116582" duration="1000" />
+      <workItem from="1733261116582" duration="17724000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Folder Configuration">
+      <option name="closed" value="true" />
+      <created>1733261486696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733261486696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Folder Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Folder Configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
